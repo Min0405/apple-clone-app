@@ -1,0 +1,61 @@
+.scroll-text {
+  font-size: 2rem;
+  opacity: 1;
+  transition: 1s;
+}
+
+.scrolled-text {
+  font-size: 2rem;
+  opacity: 0;
+  transition: 1s;
+}
+
+#scroll-text {
+  font-size: 2rem;
+  opacity: 1;
+  transition: 1s;
+}
+
+#scrolling-text {
+  font-size: 2rem;
+  opacity: 0;
+  transition: 1s;
+}
+
+.Airpods {
+  text-align: center;
+  height: 400vh;
+  /* position: relative; */
+}
+
+.Airpods-sticky-container {
+  /* background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white; */
+  width: 100%;
+  top: 0;
+  position: sticky;
+}
+
+.airpods-slide-continer {
+  position: relative;
+}
+
+.airpods-slide-continer img {
+  background-color: aqua;
+  vertical-align: middle;
+}
+
+.airpods-slide2 {
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
